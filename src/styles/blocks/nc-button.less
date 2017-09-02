@@ -1,0 +1,53 @@
+.nc-button {
+	text-decoration: none;
+	text-align: center;
+
+	&_login {
+		width: 83px;
+		height: 22px;
+		padding: 0 10px 2px;
+		margin-left: 2%;
+		line-height: 21px;
+		color: white;
+		border: none;
+		border-radius: 2px;
+		background: #168de2;
+		box-shadow: 0 1px 0 1px #d0d0d0;
+	}
+
+	&_search {
+		width: 138px;
+		height: 31px;
+		margin: 3px 0 0 3px;
+		padding: 0 10px 2px;
+		font-size: 18px;
+		color: white;
+		border: 1px solid #e9a14b;
+		border-radius: 2px;
+		background: #ffa930;
+	}
+
+	&_widget {
+		flex: 1;
+		padding: 0 10px;
+		height: 26px;
+		background: #f0f0f0;
+		border: 1px solid #d0d0d0;
+		cursor: pointer;
+
+		&:hover {
+			background-color: #168de2;
+		}
+
+		&:first-child {
+			color: #168de2;
+			background-color: white;
+			border-bottom: 0;
+			border-top: 3px solid blue;
+
+			&:hover {
+				color: #f26d00;
+			}
+		}
+	}
+}
