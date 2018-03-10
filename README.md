@@ -1,9 +1,10 @@
-This project represents the example of CSS-Trics Web Site.
+### This project represents the example of Mail.ru website.
 
-To run it you need to follow next steps:
-1. Write "npm i" in the WebStorm terminal with installed Node.js.
-2. Write "gulp" in terminal.
+## To run it you need to follow next steps:
+#### 1. Install Node.js.
+#### 2. Run `npm i` in console to install all dependences.
+#### 3. Run `gulp` in console to start gulp process.
 
-Site markup:
+## Website markup:
 
-![Image alt](https://github.com/mvshmakov/MailRuExample/blob/master/Mail.Ru%20Example.png)
+![alt text](mailru-example.png)
